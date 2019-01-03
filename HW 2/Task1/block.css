@@ -1,0 +1,49 @@
+html {
+    width: 98%;
+    height: 97%;
+}
+
+body {
+    width: 100%;
+    height: 97%;
+}
+
+p {
+    width: 100%;
+    height: 24%;
+    align-content: center;
+}
+
+.orange span {
+    display: inline-block;
+    background-color: orange;
+    width: 49%;
+    height: 100%;
+}
+
+.orange .last
+{
+    display: inline-block;
+    background-color: orange;
+    height: 100%;
+}
+.yellow span {
+    display: inline-block;
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+}
+
+.blue span {
+    display: inline-block;
+    background-color: blue;
+    width: 32.3%;
+    height: 100%;
+}
+
+.gray span {
+    display: inline-block;
+    background-color: gray;
+    width: 24%;
+    height: 100%;
+}
