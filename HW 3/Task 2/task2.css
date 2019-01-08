@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 3fr 3fr;
+    grid-gap: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper_block {
+    font-size: 30pt;
+    color: floralwhite;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid brown;
+    opacity: 0.6;
+}
+
+.block1 {
+    background-color: olive;
+}
+
+.block2 {
+    background-color: mediumturquoise;
+}
+
+.block3 {
+    background-color: orange;
+}
+
+.block4 {
+    background-color: peru;
+}
+
+.block5 {
+    background-color: green;
+}
+
+.block6 {
+    background-color: indigo;
+}
+
+.block7 {
+    background-color: lightgreen;
+}
+
+.block8 {
+    background-color: lightseagreen;
+}
+
+.block9 {
+    background-color: red;
+}
+
+.block10 {
+    background-color: orangered;
+}
+
+.block11 {
+    background-color: darkgray;
+}
+
+.block12 {
+    background-color: gold;
+}
+
+.block13 {
+    background-color: darkolivegreen;
+}
+
+.block14 {
+    background-color: darkslateblue;
+}
+
+.block15 {
+    background-color: lightseagreen;
+}
+
+.block16 {
+    background-color: goldenrod;
+}
+
+.block17 {
+    background-color: indianred;
+}
+
+.block18 {
+    background-color: mediumblue;
+}
+
+.block19 {
+    background-color: slateblue;
+}
+
+.block20 {
+    background-color: orchid;
+}
