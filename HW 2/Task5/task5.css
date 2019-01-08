@@ -16,7 +16,7 @@
 }
 
 /*1920x1080*/
-@media screen and (min-width: 1080px) {
+@media screen and (min-device-width: 1080px) {
     .maintable_cell1 {
         width: 39%;
         background-color: crimson;
@@ -49,7 +49,7 @@
 }
 
 /*iPhone*/
-@media only screen and (min-width : 375px) and (max-width : 812px) and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
     .maintable_cell1 {
         display: none;
     }
@@ -79,7 +79,7 @@
 }
 
 /*iPad*/
-@media only screen and (min-width : 768px) and (max-width : 1024px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .maintable_cell1 {
         width: 39%;
         background-color: darkgoldenrod;
