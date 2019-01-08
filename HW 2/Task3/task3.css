@@ -1,0 +1,67 @@
+body {
+    width: 98vw;
+    height: 9vh;
+}
+
+.header {
+    position: fixed;
+    background-color: rgba(155, 255, 100, 0.5);
+    border-radius: 0 0 300px 300px;
+    height: 15%;
+    width: 90%;
+    margin: 0 5% 0 5%;
+    z-index: 2;
+    text-align: center;
+}
+
+.sidebar {
+    position: fixed;
+    width: 10%;
+    height: 600px;
+    background-color: rgba(65, 152, 158, 0.1);
+    z-index: 1;
+}
+
+.sidebar div {
+    padding: 55% 1% 0 5%;
+    width: 90%;
+    height: 50%;
+}
+
+.sidebar a {
+    display: block;
+    font-family: 'Century Gothic';
+    font-weight: 600;
+}
+
+.sidebar a:hover {
+    font-size: 130%;
+}
+
+.center {
+    position: fixed;
+    margin: 8% 0 0 15%;
+    background-color: rgba(207, 209, 70, 0.4);
+    width: 70%;
+    height: 65%;
+}
+
+.center h2 {
+    text-align: center;
+}
+
+.center ol {
+    font-size: 20px;
+    font-family: 'Century Gothic';
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    margin: 0 5% 0 5%;
+    width: 90%;
+    height: 15%;
+    background-color: rgba(70, 119, 209, 0.4);
+    border-radius: 300px 300px 0 0;
+    text-align: center;
+}
