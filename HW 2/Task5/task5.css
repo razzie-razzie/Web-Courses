@@ -1,0 +1,113 @@
+.maintable {
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 0 3em 0;
+    padding: 0;
+}
+
+.maintable_cell {
+    box-sizing: border-box;
+    flex-grow: 1;
+    padding: 0.8em 1.2em;
+    overflow: hidden;
+    border: solid 3px white;
+}
+
+/*1920x1080*/
+@media screen and (min-width: 1080px) {
+    .maintable_cell1 {
+        width: 39%;
+        background-color: crimson;
+    }
+
+    .maintable_cell2 {
+        width: 59%;
+        background-color: darkgoldenrod;
+    }
+
+    .maintable_cell3 {
+        width: 100%;
+        background-color: darkolivegreen;
+    }
+
+    .maintable_cell4 {
+        width: 33%;
+        background-color: peru;
+    }
+
+    .maintable_cell5 {
+        width: 33%;
+        background-color: cornflowerblue;
+    }
+
+    .maintable_cell6 {
+        width: 33%;
+        background-color: blueviolet;
+    }
+}
+
+/*iPhone*/
+@media only screen and (min-width : 375px) and (max-width : 812px) and (-webkit-device-pixel-ratio : 3) {
+    .maintable_cell1 {
+        display: none;
+    }
+
+    .maintable_cell2 {
+        width: 100%;
+        background-color: darkolivegreen;
+    }
+
+    .maintable_cell3 {
+        width: 100%;
+        background-color: blueviolet;
+    }
+
+    .maintable_cell4 {
+        width: 100%;
+        background-color: red;
+    }
+
+    .maintable_cell5 {
+        display: none;
+    }
+
+    .maintable_cell6 {
+        display: none;
+    }
+}
+
+/*iPad*/
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .maintable_cell1 {
+        width: 39%;
+        background-color: darkgoldenrod;
+
+    }
+
+    .maintable_cell2 {
+        width: 59%;
+        background-color: blueviolet;
+    }
+
+    .maintable_cell3 {
+        width: 100%;
+        background-color: crimson;
+
+    }
+
+    .maintable_cell4 {
+        width: 49%;
+        background-color: darkolivegreen;
+    }
+
+    .maintable_cell5 {
+        width: 49%;
+        background-color: cornflowerblue;
+    }
+
+    .maintable_cell6 {
+        display: none;
+    }
+}
