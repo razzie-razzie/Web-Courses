@@ -1,0 +1,22 @@
+body {
+    height: 97vh;
+}
+
+.row {
+    display: flex;
+    height: 50%;
+}
+
+.column {
+    background-color: blueviolet;
+    opacity: 0.6;
+    flex: 50%;
+    margin: 1%;
+    border: 5px solid violet;
+    font-family:  'Century Cothic';
+    font-size: 40pt;
+    padding: 8%;
+    color: floralwhite;
+    text-align: center;
+    justify-content: center;
+}
