@@ -78,7 +78,9 @@ function Spruce(name, age, needle_length, cone_size) {
 }
 
 function showInfo() {
-    alert("INFO!");
+    var name = document.getElementById("Name").value;
+    var age = document.getElementById("Age").value;
+    alert("Name: " + name + "\nAge: " + age);
 }
 
 //Орляк обыкновенный (папоротник)
